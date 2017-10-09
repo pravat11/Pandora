@@ -1,10 +1,4 @@
-@media(min-width: 720px){
-	.header,.intro-section, .featured-specials-section, .latest-from-blog,.footer-wrapper,.footer-bottom-contents{
-		width: 100%;
-	}
-}
-@media(min-width: 1020px){
-	.header{
+.header{
 		width: 980px;
 		margin: 0 auto;
 	}
@@ -20,6 +14,17 @@
 	.footer-bottom-contents{
 		margin:0 auto;
 		width: 980px;
+	}
+@media(max-width: 1020px){
+	.header,.intro-section, .featured-specials-section, .latest-from-blog,.footer-wrapper,.footer-bottom-contents{
+		width: 98%;
+		margin:0 auto;
+	}
+}
+@media(max-width: 720px){
+	.header,.intro-section, .featured-specials-section, .latest-from-blog,.footer-wrapper,.footer-bottom-contents{
+		width: 98%;
+		margin:0 auto;
 	}
 }
 
